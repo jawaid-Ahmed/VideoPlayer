@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+    <item
+        android:id="@+id/search_m"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+
+    </item>
+
+    <item
+        android:id="@+id/refresh_video_menu"
+        android:title="Refresh"
+        style="?android:attr/actionOverflowButtonStyle"></item>
+    <item
+        android:id="@+id/settings_video_menu"
+        android:title="Settings"
+        style="?android:attr/actionOverflowButtonStyle"></item>
+
+</menu>

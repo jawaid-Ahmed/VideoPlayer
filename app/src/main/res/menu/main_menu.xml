@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+    <item
+        android:id="@+id/night_mode"
+        android:icon="@drawable/ic_baseline_nights_stay_24"
+        android:title="Night Mode"
+        app:showAsAction="always"></item>
+
+
+    <item
+        android:id="@+id/refresh_folder_menu"
+        android:title="Refresh"
+        style="?android:attr/actionOverflowButtonStyle"></item>
+    <item
+        android:id="@+id/settings_folder_menu"
+        android:title="Settings"
+        style="?android:attr/actionOverflowButtonStyle"></item>
+</menu>

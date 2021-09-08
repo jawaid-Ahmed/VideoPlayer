@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="Widget.Theme.VideoPlayer.nobar.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/splash_screen</item>
+    </style>
+
+    <style name="AppThemeplayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    //bottom sheet themes
+    <style name="StyledDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialoge_background</item>
+    </style>
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="behavior_peekHeight">500dp</item>
+        <item name="android:background">@drawable/dialoge_background</item>
+    </style>
+    //bottom sheet themes end
+
+</resources>
